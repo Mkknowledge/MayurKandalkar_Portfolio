@@ -13,4 +13,16 @@ end
 		)
 end
 	puts "5 Skills added."
+
+9.times do |portfolio|
+	Portfolio.create!(
+		title: "My Portfolio #{portfolio}",
+		subtitle: "hehe",
+		body: "asdfSDF",
+		thumb_image: "http://via.placeholder.com/350x150",
+		main_image: "http://via.placeholder.com/350x150"
+		)	
+end
+
+puts "Portfolio create"
 	
